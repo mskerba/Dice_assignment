@@ -6,13 +6,15 @@ import { useEffect, useState } from "react";
 import { Button } from "@nextui-org/react";
 import axios from 'axios';
 
+let x;
 export default function Home() {
-  const full = '/books';
+  const full = 'http://localhost:3004/books';
   const empty = 'https://6628e9c554afcabd07376bca.mockapi.io/test'
   const [books, setBooks] = useState<Book[]>([]);
   const [api, setApi] = useState<string>(empty);
   const [loading, setLoading] = useState<boolean>(false);
-  const [contentLength, setContentLength] = useState<nuber>(0)
+  const [contentLength, setContentLength] = useState<number>(0)
+  const [percentLoding, setPercentLoding] = useState(0)
 
   useEffect(() => {
     fetchData();
@@ -21,11 +23,16 @@ export default function Home() {
   const fetchData = async () => {
     try {
       setLoading(true);
-      const response = await axios.get(full);
-	console.log(response.data);
-      console.log(response, typeof response.headers['content-length'])
-      setContentLength(Number(response.headers['content-length']))
+      const response = await axios.get(api, {
+        onDownloadProgress: (progressEvent:any) => {
+          const loaded = progressEvent.loaded;
+          const total = progressEvent.total;
+          const percent = (loaded / total) * 100;
+          setPercentLoding(percent);
+        }
+      });
       setBooks(response.data);
+
     } catch (error) {
       console.error("Error fetching data:", error);
     } finally {
@@ -34,13 +41,12 @@ export default function Home() {
   };
 
   const handleFetchDataClick = () => {
-    setApi((prev: string) => ((prev === empty) ? full : empty));
-    // setApi(full)
+    setApi(full)
   };
 
   return (
-    <main className="dark text-foreground bg-background">
-      <section className='py-24 p-10 h-full'>
+    <main className="dark text-foreground bg-background h-lvh " style={{ backgroundColor: "black" }}>
+      <section className='section py-24 p-10  h-lvh'>
         <NextTopLoader />
         <div className='container'>
           <MainTable books={books}/>
@@ -50,7 +56,7 @@ export default function Home() {
           {
             loading &&
             <div className="h-1 w-full bg-neutral-200 dark:bg-neutral-600 mt-4">
-              <div className="h-1 bg-primary" style={{ width: '45%' }}></div>
+              <div className="h-1 bg-primary" style={{ width: `${percentLoding}%` }}></div>
             </div>
           }
         </div>

@@ -35,9 +35,6 @@ export default function MainTable({ books }: { books: Book[] }) {
             </TableBody>
 
 
-
-
-
         }
     </Table>
   );

@@ -8,6 +8,10 @@ COPY package*.json ./
 
 RUN npm install -g @nestjs/cli
 
+RUN npm install @nestjs/common
+
+RUN npm install express
+
 COPY . .
 
 RUN npm run build

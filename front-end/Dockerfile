@@ -14,5 +14,6 @@ RUN npm i nextjs-progressbar
 
 RUN npm install axios
 
+RUN npm run build
 
-CMD ["npm", "run", "dev"]
+CMD ["npm", "start"]
