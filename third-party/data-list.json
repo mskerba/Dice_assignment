@@ -1,0 +1,519 @@
+[
+  {
+    "title": "Data Analyst",
+    "author": "Mary Jones",
+    "genre": "Thriller",
+    "year": "1654",
+    "id": "1"
+  },
+  {
+    "title": "Research Scientist",
+    "author": "Linda Jones",
+    "genre": "Fantasy",
+    "year": "1834",
+    "id": "2"
+  },
+  {
+    "title": "Product Manager",
+    "author": "John Johnson",
+    "genre": "Adventure",
+    "year": "1183",
+    "id": "3"
+  },
+  {
+    "title": "Product Manager",
+    "author": "James Smith",
+    "genre": "Cultures & Places",
+    "year": "1348",
+    "id": "4"
+  },
+  {
+    "title": "Regional Data Representative",
+    "author": "Elizabeth Taylor",
+    "genre": "Contemporary",
+    "year": "1928",
+    "id": "5"
+  },
+  {
+    "title": "Research Scientist",
+    "author": "Michael Johnson",
+    "genre": "History",
+    "year": "1819",
+    "id": "6"
+  },
+  {
+    "title": "Regional Data Representative",
+    "author": "John Davis",
+    "genre": "Non-Fiction",
+    "year": "1252",
+    "id": "7"
+  },
+  {
+    "title": "Financial Analyst",
+    "author": "Mary Wilson",
+    "genre": "Memoir",
+    "year": "1811",
+    "id": "8"
+  },
+  {
+    "title": "HR Specialist",
+    "author": "Robert Brown",
+    "genre": "Anthology",
+    "year": "1488",
+    "id": "9"
+  },
+  {
+    "title": "Product Manager",
+    "author": "James Moore",
+    "genre": "Anthology",
+    "year": "2012",
+    "id": "10"
+  },
+  {
+    "title": "Regional Data Representative",
+    "author": "William Brown",
+    "genre": "Non-Fiction",
+    "year": "1347",
+    "id": "11"
+  },
+  {
+    "title": "Marketing Coordinator",
+    "author": "Jennifer Wilson",
+    "genre": "Art",
+    "year": "1656",
+    "id": "12"
+  },
+  {
+    "title": "Financial Analyst",
+    "author": "Elizabeth Taylor",
+    "genre": "Science",
+    "year": "1847",
+    "id": "13"
+  },
+  {
+    "title": "Graphic Designer",
+    "author": "James Taylor",
+    "genre": "Philosophy",
+    "year": "1921",
+    "id": "14"
+  },
+  {
+    "title": "Marketing Coordinator",
+    "author": "Linda Davis",
+    "genre": "Horror",
+    "year": "1919",
+    "id": "15"
+  },
+  {
+    "title": "Product Manager",
+    "author": "Elizabeth Williams",
+    "genre": "Religion",
+    "year": "1587",
+    "id": "16"
+  },
+  {
+    "title": "HR Specialist",
+    "author": "Elizabeth Moore",
+    "genre": "Memoir",
+    "year": "1756",
+    "id": "17"
+  },
+  {
+    "title": "Regional Data Representative",
+    "author": "Mary Johnson",
+    "genre": "Romance",
+    "year": "1386",
+    "id": "18"
+  },
+  {
+    "title": "Project Manager",
+    "author": "Mary Brown",
+    "genre": "Autobiography",
+    "year": "1630",
+    "id": "19"
+  },
+  {
+    "title": "Financial Analyst",
+    "author": "Robert Brown",
+    "genre": "Psychology",
+    "year": "1627",
+    "id": "20"
+  },
+  {
+    "title": "Product Manager",
+    "author": "Patricia Smith",
+    "genre": "Fiction",
+    "year": "1893",
+    "id": "21"
+  },
+  {
+    "title": "Marketing Coordinator",
+    "author": "Elizabeth Taylor",
+    "genre": "Autobiography",
+    "year": "1366",
+    "id": "22"
+  },
+  {
+    "title": "Research Scientist",
+    "author": "Michael Davis",
+    "genre": "Cooking",
+    "year": "1894",
+    "id": "23"
+  },
+  {
+    "title": "Project Manager",
+    "author": "John Johnson",
+    "genre": "Mystery",
+    "year": "1435",
+    "id": "24"
+  },
+  {
+    "title": "Research Scientist",
+    "author": "James Miller",
+    "genre": "Romance",
+    "year": "1979",
+    "id": "25"
+  },
+  {
+    "title": "Project Manager",
+    "author": "John Johnson",
+    "genre": "LGBTQ+",
+    "year": "1412",
+    "id": "26"
+  },
+  {
+    "title": "Regional Data Representative",
+    "author": "Michael Brown",
+    "genre": "Cooking",
+    "year": "1152",
+    "id": "27"
+  },
+  {
+    "title": "Project Manager",
+    "author": "James Moore",
+    "genre": "Mystery",
+    "year": "1955",
+    "id": "28"
+  },
+  {
+    "title": "Product Manager",
+    "author": "Elizabeth Davis",
+    "genre": "Western",
+    "year": "1819",
+    "id": "29"
+  },
+  {
+    "title": "Data Analyst",
+    "author": "John Taylor",
+    "genre": "Memoir",
+    "year": "1877",
+    "id": "30"
+  },
+  {
+    "title": "Research Scientist",
+    "author": "Patricia Johnson",
+    "genre": "Graphic Novel",
+    "year": "1818",
+    "id": "31"
+  },
+  {
+    "title": "Data Analyst",
+    "author": "Robert Jones",
+    "genre": "History",
+    "year": "1854",
+    "id": "32"
+  },
+  {
+    "title": "Research Scientist",
+    "author": "Robert Miller",
+    "genre": "Young Adult (YA)",
+    "year": "1523",
+    "id": "33"
+  },
+  {
+    "title": "Data Analyst",
+    "author": "Mary Moore",
+    "genre": "Travel",
+    "year": "1547",
+    "id": "34"
+  },
+  {
+    "title": "Product Manager",
+    "author": "Patricia Smith",
+    "genre": "Health",
+    "year": "1754",
+    "id": "35"
+  },
+  {
+    "title": "Product Manager",
+    "author": "Elizabeth Miller",
+    "genre": "Autobiography",
+    "year": "1866",
+    "id": "36"
+  },
+  {
+    "title": "Financial Analyst",
+    "author": "John Taylor",
+    "genre": "Non-Fiction",
+    "year": "1391",
+    "id": "37"
+  },
+  {
+    "title": "Financial Analyst",
+    "author": "Michael Smith",
+    "genre": "Essays",
+    "year": "1784",
+    "id": "38"
+  },
+  {
+    "title": "Marketing Coordinator",
+    "author": "Michael Wilson",
+    "genre": "Autobiography",
+    "year": "1147",
+    "id": "39"
+  },
+  {
+    "title": "Graphic Designer",
+    "author": "John Miller",
+    "genre": "Non-Fiction",
+    "year": "1441",
+    "id": "40"
+  },
+  {
+    "title": "Graphic Designer",
+    "author": "John Miller",
+    "genre": "Anthology",
+    "year": "1835",
+    "id": "41"
+  },
+  {
+    "title": "Product Manager",
+    "author": "Patricia Taylor",
+    "genre": "Adventure",
+    "year": "1542",
+    "id": "42"
+  },
+  {
+    "title": "Regional Data Representative",
+    "author": "Jennifer Williams",
+    "genre": "Religion",
+    "year": "1969",
+    "id": "43"
+  },
+  {
+    "title": "Marketing Coordinator",
+    "author": "Robert Brown",
+    "genre": "Cooking",
+    "year": "1754",
+    "id": "44"
+  },
+  {
+    "title": "Project Manager",
+    "author": "Patricia Wilson",
+    "genre": "Psychology",
+    "year": "1191",
+    "id": "45"
+  },
+  {
+    "title": "Financial Analyst",
+    "author": "John Johnson",
+    "genre": "Memoir",
+    "year": "1700",
+    "id": "46"
+  },
+  {
+    "title": "Regional Data Representative",
+    "author": "Jennifer Brown",
+    "genre": "Science",
+    "year": "1168",
+    "id": "47"
+  },
+  {
+    "title": "HR Specialist",
+    "author": "James Smith",
+    "genre": "Memoir",
+    "year": "1461",
+    "id": "48"
+  },
+  {
+    "title": "HR Specialist",
+    "author": "Patricia Taylor",
+    "genre": "Adventure",
+    "year": "1153",
+    "id": "49"
+  },
+  {
+    "title": "HR Specialist",
+    "author": "James Moore",
+    "genre": "Philosophy",
+    "year": "1871",
+    "id": "50"
+  },
+  {
+    "title": "Marketing Coordinator",
+    "author": "Jennifer Miller",
+    "genre": "True Crime",
+    "year": "1975",
+    "id": "51"
+  },
+  {
+    "title": "Project Manager",
+    "author": "William Smith",
+    "genre": "Science Fiction",
+    "year": "1444",
+    "id": "52"
+  },
+  {
+    "title": "Financial Analyst",
+    "author": "Robert Smith",
+    "genre": "Social & Political Issues",
+    "year": "1126",
+    "id": "53"
+  },
+  {
+    "title": "Research Scientist",
+    "author": "Patricia Smith",
+    "genre": "Science Fiction",
+    "year": "1441",
+    "id": "54"
+  },
+  {
+    "title": "Project Manager",
+    "author": "Robert Brown",
+    "genre": "Science Fiction",
+    "year": "1643",
+    "id": "55"
+  },
+  {
+    "title": "Research Scientist",
+    "author": "Jennifer Smith",
+    "genre": "Fiction",
+    "year": "1592",
+    "id": "56"
+  },
+  {
+    "title": "Software Developer",
+    "author": "Michael Davis",
+    "genre": "Cooking",
+    "year": "2014",
+    "id": "57"
+  },
+  {
+    "title": "Financial Analyst",
+    "author": "Patricia Miller",
+    "genre": "Law",
+    "year": "1697",
+    "id": "58"
+  },
+  {
+    "title": "HR Specialist",
+    "author": "Elizabeth Smith",
+    "genre": "History",
+    "year": "2003",
+    "id": "59"
+  },
+  {
+    "title": "Financial Analyst",
+    "author": "Jennifer Miller",
+    "genre": "Memoir",
+    "year": "1212",
+    "id": "60"
+  },
+  {
+    "title": "Software Developer",
+    "author": "Patricia Jones",
+    "genre": "Horror",
+    "year": "1527",
+    "id": "61"
+  },
+  {
+    "title": "Financial Analyst",
+    "author": "Patricia Davis",
+    "genre": "Autobiography",
+    "year": "1365",
+    "id": "62"
+  },
+  {
+    "title": "Financial Analyst",
+    "author": "Patricia Wilson",
+    "genre": "Romance",
+    "year": "1564",
+    "id": "63"
+  },
+  {
+    "title": "Marketing Coordinator",
+    "author": "Robert Smith",
+    "genre": "History",
+    "year": "1577",
+    "id": "64"
+  },
+  {
+    "title": "Regional Data Representative",
+    "author": "Jennifer Jones",
+    "genre": "Non-Fiction",
+    "year": "1289",
+    "id": "65"
+  },
+  {
+    "title": "Marketing Coordinator",
+    "author": "Elizabeth Brown",
+    "genre": "Motivational",
+    "year": "1958",
+    "id": "66"
+  },
+  {
+    "title": "Financial Analyst",
+    "author": "Linda Jones",
+    "genre": "Sports",
+    "year": "1229",
+    "id": "67"
+  },
+  {
+    "title": "Financial Analyst",
+    "author": "Jennifer Wilson",
+    "genre": "Self-help",
+    "year": "1330",
+    "id": "68"
+  },
+  {
+    "title": "Data Analyst",
+    "author": "James Wilson",
+    "genre": "Art",
+    "year": "1806",
+    "id": "69"
+  },
+  {
+    "title": "Project Manager",
+    "author": "Elizabeth Williams",
+    "genre": "Art",
+    "year": "1384",
+    "id": "70"
+  },
+  {
+    "title": "Graphic Designer",
+    "author": "Linda Moore",
+    "genre": "Contemporary",
+    "year": "1516",
+    "id": "71"
+  },
+  {
+    "title": "Marketing Coordinator",
+    "author": "John Wilson",
+    "genre": "Fiction",
+    "year": "1540",
+    "id": "72"
+  },
+  {
+    "title": "Data Analyst",
+    "author": "Elizabeth Taylor",
+    "genre": "Memoir",
+    "year": "1223",
+    "id": "73"
+  },
+  {
+    "title": "Product Manager",
+    "author": "Elizabeth Wilson",
+    "genre": "Science",
+    "year": "1191"
+  }
+]
